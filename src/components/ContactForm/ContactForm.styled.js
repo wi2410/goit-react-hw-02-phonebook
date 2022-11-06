@@ -10,7 +10,7 @@ export const Form = styled.form`
 
 export const FormInput = styled.input`
   border: 1px solid black;
-  box-shadow: 10px 10px 12px -3px rgba(0, 0, 0, 0.21);
+  box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.21);
   margin-bottom: 16px;
   margin-top: 6px;
   padding: 4px;
