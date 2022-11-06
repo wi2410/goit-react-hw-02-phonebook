@@ -9,6 +9,6 @@ export const FilterInput = styled.input`
   outline: none;
   &:hover,
   :focus {
-    border: 1px solid skyblue;
+    border: 1px solid blue;
   }
 `;

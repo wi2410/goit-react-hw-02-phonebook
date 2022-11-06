@@ -17,7 +17,7 @@ export const FormInput = styled.input`
   outline: none;
   &:hover,
   :focus {
-    border: 1px solid skyblue;
+    border: 1px solid blue;
   }
 `;
 
@@ -29,6 +29,7 @@ export const SubmitButton = styled.button`
   background-color: white;
   cursor: pointer;
   &:hover {
-    background-color: skyblue;
+    background-color: blue;
+    color: white;
   }
 `;

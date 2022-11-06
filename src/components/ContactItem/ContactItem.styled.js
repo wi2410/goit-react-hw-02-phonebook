@@ -18,6 +18,7 @@ export const ItemButton = styled.button`
   background-color: white;
   cursor: pointer;
   &:hover {
-    background-color: skyblue;
+    background-color: blue;
+    color: white;
   }
 `;
