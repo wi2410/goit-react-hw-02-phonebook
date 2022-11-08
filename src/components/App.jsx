@@ -14,11 +14,13 @@ export class App extends Component {
 
   handleSubmitInfo = data => {
     const findContact = this.state.contacts.find(el => el.name === data.name);
-    findContact
-      ? alert(`${data.name} is already in contacts`)
-      : this.setState({
-          contacts: this.state.contacts.concat([data]),
-        });
+    if (findContact) {
+      alert(`${data.name} is already in contacts`);
+      return;
+    }
+    this.setState({
+      contacts: this.state.contacts.concat([data])
+    })
   };
 
   handleSearch = data => {
